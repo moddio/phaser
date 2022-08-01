@@ -18,6 +18,7 @@
   "scripts": {
     "beta": "npm publish --tag beta",
     "help": "node scripts/help.js",
+    "build:taro": "webpack --config config/webpack.taro.config.js",
     "build": "webpack --config config/webpack.config.js",
     "watch": "webpack --watch --config config/webpack.config.js",
     "buildfb": "webpack --config config/webpack.fb.config.js",
