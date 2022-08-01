@@ -1,3 +1,4 @@
+/* eslint-disable lines-around-comment */
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -16,11 +17,11 @@ var Input = {
     CreatePixelPerfectHandler: require('./CreatePixelPerfectHandler'),
     CreateInteractiveObject: require('./CreateInteractiveObject'),
     Events: require('./events'),
-    Gamepad: require('./gamepad'),
+    // Gamepad: require('./gamepad'),
     InputManager: require('./InputManager'),
     InputPlugin: require('./InputPlugin'),
     InputPluginCache: require('./InputPluginCache'),
-    Keyboard: require('./keyboard'),
+    Keyboard: require('./keyboard'), // edited
     Mouse: require('./mouse'),
     Pointer: require('./Pointer'),
     Touch: require('./touch')

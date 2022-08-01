@@ -10,15 +10,15 @@
 
 module.exports = {
 
-    Events: require('./events'),
+    /* Events: require('./events'),
 
     KeyboardManager: require('./KeyboardManager'),
-    KeyboardPlugin: require('./KeyboardPlugin'),
+    KeyboardPlugin: require('./KeyboardPlugin'), */
 
     Key: require('./keys/Key'),
-    KeyCodes: require('./keys/KeyCodes'),
+    KeyCodes: require('./keys/KeyCodes')
 
-    KeyCombo: require('./combo/KeyCombo'),
+    /* KeyCombo: require('./combo/KeyCombo'),
 
     AdvanceKeyCombo: require('./combo/AdvanceKeyCombo'),
     ProcessKeyCombo: require('./combo/ProcessKeyCombo'),
@@ -27,6 +27,6 @@ module.exports = {
     JustDown: require('./keys/JustDown'),
     JustUp: require('./keys/JustUp'),
     DownDuration: require('./keys/DownDuration'),
-    UpDuration: require('./keys/UpDuration')
+    UpDuration: require('./keys/UpDuration') */
 
 };

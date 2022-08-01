@@ -1,3 +1,4 @@
+/* eslint-disable lines-around-comment */
 /**
  * @author       Richard Davey <rich@photonstorm.com>
  * @copyright    2020 Photon Storm Ltd.
@@ -21,18 +22,18 @@ var Phaser = {
     Core: require('./core'),
     Class: require('./utils/Class'),
     Create: require('./create'),
-    Curves: require('./curves'),
+    // Curves: require('./curves'),
     Data: require('./data'),
     Display: require('./display'),
-    DOM: require('./dom'),
+    // DOM: require('./dom'),
     Events: require('./events'),
     Game: require('./core/Game'),
     GameObjects: require('./gameobjects'),
     Geom: require('./geom'),
-    Input: require('./input'),
+    Input: require('./input'), // edited
     Loader: require('./loader'),
     Math: require('./math'),
-    Physics: require('./physics'),
+    // Physics: require('./physics'),
     Plugins: require('./plugins'),
     Renderer: require('./renderer'),
     Scale: require('./scale'),

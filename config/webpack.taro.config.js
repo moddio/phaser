@@ -10,12 +10,7 @@ module.exports = {
     context: `${__dirname}/../src/`,
 
     entry: {
-        phaser: './phaser.js',
-        'phaser.min': './phaser.js',
-        'phaser-arcade-physics': './phaser-arcade-physics.js',
-        'phaser-arcade-physics.min': './phaser-arcade-physics.js',
-        'phaser-ie9': './phaser-ie9.js',
-        'phaser-ie9.min': './phaser-ie9.js'
+        'phaser-taro.min': './phaser-taro.js'
     },
 
     output: {
@@ -55,7 +50,7 @@ module.exports = {
             "typeof PLUGIN_3D": JSON.stringify(false),
             "typeof PLUGIN_CAMERA3D": JSON.stringify(false),
             "typeof PLUGIN_FBINSTANT": JSON.stringify(false),
-            "typeof FEATURE_SOUND": JSON.stringify(true)
+            "typeof FEATURE_SOUND": JSON.stringify(false)
         }),
 
         new CleanWebpackPlugin()
